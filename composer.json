@@ -1,0 +1,26 @@
+{
+  "name": "unicrm/core-bundle",
+  "type": "symfony-bundle",
+  "description": "UniCrm CoreBundle",
+  "keywords": [],
+  "homepage": "https://symfony.com",
+  "license": "",
+  "authors": [
+    {
+      "name": "Klejdis Jorgji",
+      "email": "jorgji.klejdis@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": { "UniCrm\\Bundle\\CoreBundle": "" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "minimum-stability": "dev",
+}
