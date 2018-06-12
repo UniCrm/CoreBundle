@@ -1,0 +1,4 @@
+uni_core:
+    resource: "@UniCoreBundle/Controller/"
+    type:     annotation
+    prefix:   "/admin"
